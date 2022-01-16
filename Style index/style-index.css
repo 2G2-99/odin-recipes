@@ -1,6 +1,6 @@
-*	{
-	border: 1px solid red;
-	margin: 10px;
+:root	{
+	box-sizing: border-box;
+	font-size: 1em;
 }
 
 body    {
@@ -10,38 +10,65 @@ body    {
 }
 
 /* HEADER */
-header  {
-  width: 100vw;
+header,
+.heading  {
+	width: 100vw;
+	height: auto;
+	background-color: hsl(35, 70%, 60%);
+	border-top: solid hsl(35, 70%, 60%);
 }
 
 h1  {
-  font-size: 2rem;
-  background-color: rgb(180, 120, 60);
+  font-size: 2.5rem;
+  background-color: hsl(35, 60%, 40%);
+  border: 5px solid hsl(35, 100%, 80%);
   font-weight: bolder;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   text-align: center;
+  padding: .2em 0;
 }
 
 picture  {
-	display: inline;
+	display: inline-block;
+	margin-left: .5em;
 }
 
 #shef-meme  {
+	width: 30vw;
+	height: auto;
+	border-radius: ;
+}
 
+.heading p	{
+	border: 2px solid red;
+	display: inline-block;
+	width: 30vw;
+	font-size: 1.5rem;
+	float: left;
+	padding: 1em;
+	color: hsl(125, 25%, 20%);
+}
+
+.nav-menu	{
+	margin: 10px auto;
 }
 
 nav	{
-	display: block;
+	margin: 0 auto;
+	display: flex;
+	padding: 1em;
+	width: 80vw;
 }
 
 nav a	{
-	background-color: rgb(55, 40, 25);
-	border: 2px solid red;
-	color: hsl(50, 5%, 75%);
+	background-color: hsl(35, 60%, 40%);
+	color: hsl(35, 100%, 80%);
 	display: inline-block;
+	flex: 1;
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 1.2rem;
 	font-weight: bold;
-	margin: 0 5px;
+	margin: 0 1em;
 	min-width: 12em;
 	padding: .5em;
 	text-align: center;
