@@ -36,12 +36,12 @@ picture  {
 #shef-meme  {
 	width: 30vw;
 	height: auto;
-	border-radius: ;
+	/* border-radius: ; */
 }
 
 .heading p	{
 	border: 2px solid red;
-	display: inline-block;
+	display: block;
 	width: 30vw;
 	font-size: 1.5rem;
 	float: left;
